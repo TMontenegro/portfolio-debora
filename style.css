@@ -212,7 +212,7 @@ p {
 }
 
 #portfolio {
-  height: 50vh;
+  height: 60vh;
   background: var(--primary-gray);
   display: flex;
   flex-direction: column;
@@ -257,7 +257,6 @@ p {
 
 #portfolio .separator {
   height: 60px;
-  margin: 15px 0;
 }
 
 #contact-me {
