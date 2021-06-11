@@ -16,7 +16,7 @@ function toggleMenu(event) {
 btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
 
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+document.querySelectorAll('a').forEach((anchor) => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault()
 
