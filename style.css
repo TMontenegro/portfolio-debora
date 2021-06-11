@@ -34,12 +34,6 @@ p {
   margin: 0;
 }
 
-.hero-eclipse {
-  position: absolute !important;
-  top: 0 !important;
-  right: 0 !important;
-}
-
 #logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -141,6 +135,10 @@ p {
 
   color: #ffffff;
   cursor: pointer;
+}
+
+.hero-eclipse {
+  display: block;
 }
 
 #about-me {
@@ -530,5 +528,9 @@ p {
 
   #contact-me img {
     width: 70%;
+  }
+
+  .hero-eclipse {
+    display: none;
   }
 }
