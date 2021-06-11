@@ -79,6 +79,12 @@ p {
   margin-left: 3rem;
 }
 
+.hero-eclipse {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 #hero {
   height: calc(100vh - 70px);
   background: var(--primary-gray);
