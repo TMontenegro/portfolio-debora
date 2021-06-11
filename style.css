@@ -61,10 +61,6 @@ p {
   padding: 0.5rem 1rem;
 }
 
-#menu .menu-item {
-  height: 45px;
-}
-
 #menu .social-menu-itens {
   margin-left: 3rem;
   display: flex;
@@ -72,6 +68,15 @@ p {
 
 #btn-mobile {
   display: none;
+}
+
+#menu .social-menu-itens {
+  margin: 0;
+}
+
+.social-links-margin {
+  display: flex;
+  margin-left: 3rem;
 }
 
 #hero {
@@ -418,6 +423,20 @@ p {
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+
+  .social-links-margin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .social-links-margin a {
+    border: none !important;
   }
 
   #hero {
