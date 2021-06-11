@@ -135,6 +135,80 @@ p {
 #about-me {
   height: 50vh;
   background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-me .title {
+  font-family: Martel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+
+  color: #252b42;
+  margin-bottom: 30px;
+}
+
+#about-me .subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #737373;
+}
+
+#about-me .about-me-skills-title {
+  font-family: Martel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin-bottom: 30px;
+}
+
+#about-me .about-me-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+}
+
+#about-me .about-me-skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  width: 250px;
+  height: 25px;
+
+  background: #6210af;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+
+  font-family: Martel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+#about-me .separator {
+  height: 60px;
 }
 
 #portfolio {
