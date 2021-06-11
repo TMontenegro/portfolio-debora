@@ -180,8 +180,6 @@
     </section>
     <script src="./script.js"></script>
     <script>
-      const btnMobile = document.getElementById('btn-mobile')
-
       function toggleMenu(event) {
         if (event.type === 'touchstart') event.preventDefault()
         const nav = document.getElementById('nav')
@@ -195,8 +193,8 @@
         }
       }
 
-      btnMobile.addEventListener('click', toggleMenu)
-      btnMobile.addEventListener('touchstart', toggleMenu)
+      document.getElementById('btn-mobile').addEventListener('click', toggleMenu)
+      document.getElementById('btn-mobile').addEventListener('touchstart', toggleMenu)
 
       document.querySelectorAll('a').forEach((anchor) => {
         anchor.addEventListener('click', function (e) {
