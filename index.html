@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Débora Montenegro</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <div id="logo" class=""></div>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="/">Sobre mim</a></li>
+          <li><a href="/">Portfólio</a></li>
+          <li><a href="/">Contato</a></li>
+          <li><a href="/">social-network-icons</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero" class="hero">
+      <div class="hero-description">
+        <h1 class="title">
+          Olá, eu sou UX | UI
+          <br />
+          Designer
+        </h1>
+        <div class="separator"></div>
+        <h4 class="subtitle">
+          Oi, me chamo Débora Montenegro
+          <br />
+          e sou estudante de Design com
+          <br />
+          total foco em UX | UI Design!
+        </h4>
+        <div class="separator"></div>
+        <button class="know-more">Clique para saber mais!</button>
+      </div>
+
+      <img src="./assets/contact-me-img.png" alt="" class="contact-me-img" />
+    </section>
+    <section id="about-me" class="about-me">
+      <p class="title">Sobre mim</p>
+      <p class="subtitle">
+        Sou graduanda em design na Universidade Federal de Pernambuco e trabalho
+        com User Experience e User interface. Estou sempre entusiasmada com
+        novos desafios e com a busca da melhor estratégia para proporcionar uma
+        melhor experiência, conforto e facilidade para o usuário.
+      </p>
+
+      <div class="about-me-skills">
+        <div class="about-me-skills-item">UX Design</div>
+        <div class="about-me-skills-item">Design Thinking</div>
+        <div class="about-me-skills-item">UI Design</div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <p class="title">Portfólio</p>
+      <p class="subtitle">
+        Aqui você pode conferir os meus principais trabalhos!
+      </p>
+      <div class="portfolio-itens">
+        <!-- <img src="" alt="" class="portfolio-itens-item" /> -->
+        <!-- <img src="" alt="" class="portfolio-itens-item" /> -->
+        <img src="./assets/contact-me-img.png" alt="" class="contact-me-img" />
+        <img src="./assets/contact-me-img.png" alt="" class="contact-me-img" />
+      </div>
+    </section>
+    <section id="contact-me" class="contact-me">
+      <img src="./assets/contact-me-img.png" alt="" class="contact-me-img" />
+      <form action="" class="contact-me-form" id="contact-me-form">
+        <p class="title">Contato</p>
+        <p class="subtitle">Gostou de algum projeto? Vamos conversar!</p>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Digite seu nome"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu e-mail"
+        />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+      </form>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
